@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mudassar.css">
+</head>
+<body class="m">
+    
+    
+    <h2>Calculate Zakat Gold,Silver,Cash</h2>
+    <p>Total Gold</p>
+    <input type="number" id="amount1" placeholder="Enter your Gold"><br>
+    <p>Total Silver</p>
+    <input type="number" id="amount2" placeholder="Enter your Silver"><br>
+    <p>Total Cash</p>
+    <input type="number" id="amount3" placeholder="Enter your Cash"><br>
+
+    <button onclick="
+    let gold=document.getElementById('amount1').value;
+  let goldAmount = gold*120000;
+  
+    let silver=document.getElementById('amount2').value;
+    let silverAmount=silver*1500;
+
+    let cash = document.getElementById('amount3').value;
+
+
+    let goldAmountD = goldAmount /40;
+    let silverAmountD = silverAmount /40;
+    let cashD = cash /40;
+  let totalZakat = goldAmountD + silverAmountD + cashD;
+
+  document.getElementById('heading').innerText=totalZakat;">
+    Calculate Zakat
+</button>
+
+  <h1 id="heading"> Yor Total Zakat</h1>
+<div id="torrent-scanner-popup" style="display: none;"></div>
+<body class="m">
+    
+    
+  
+</div></body></html>
+

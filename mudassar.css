@@ -1,0 +1,60 @@
+#torrent-scanner-popup {
+    all: unset;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    position: fixed !important;
+    top: 5px !important;
+    right: 10px !important;
+    z-index: 99999999 !important;
+    border-radius: 3px;
+}.m{
+    
+    text-align: center;
+}
+body{
+   
+    background:  linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url('wi.jpg');
+    width: 100%px;
+    height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+} 
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: -6px;
+}
+p{
+    font-size: 40px;
+   font-style: initial;
+    color: rgb(17, 16, 17);
+    font-size: 40px;
+    font-style: italic;
+}
+h2{
+    color:rgb(18, 19, 17);
+    font-size: 70px;
+}
+button{
+    border-radius: 30px;
+    font-size: 20px;
+    border: 20px;
+}
+h1{
+    color: rgb(23, 7, 114);
+    font-size: 40px;
+}
